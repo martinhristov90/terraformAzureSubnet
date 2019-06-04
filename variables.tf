@@ -1,9 +1,8 @@
 variable "location" {
-    type = "string"
-
+  type = "string"
 }
 
 variable "RGname" {
-    type = "string"
-    default = "trainingRG"
+  type    = "string"
+  default = "trainingRG"
 }
